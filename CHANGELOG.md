@@ -9,11 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 First implementation.
 
-[Compare v0.0.0...main](https://github.com/trinistr/gem-template/compare/v0.0.0...main)
+[Compare v0.0.0...main](https://github.com/trinistr/Chronar/compare/v0.0.0...main)
 
 ## [v0.0.0] — 2025-00-00
 
 Initial commit.
 
-[Next]: https://github.com/trinistr/gem-template/tree/main
-[🚀 CI]: https://github.com/trinistr/gem-template/actions/workflows/CI.yaml
+[Next]: https://github.com/trinistr/Chronar/tree/main
+[🚀 CI]: https://github.com/trinistr/Chronar/actions/workflows/CI.yaml

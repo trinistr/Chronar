@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module GemTemplate
+module Chronar
   VERSION = "0.0.0"
 end

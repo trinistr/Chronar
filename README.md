@@ -1,29 +1,14 @@
-# gem-template
+# Chronar
 
-<!-- [![Gem Version](https://badge.fury.io/rb/gem_template.svg?icon=si%3Arubygems)](https://rubygems.org/gems/gem_template) -->
-[![CI](https://github.com/trinistr/gem-template/actions/workflows/CI.yaml/badge.svg)](https://github.com/trinistr/gem-template/actions/workflows/CI.yaml)
+<!-- [![Gem Version](https://badge.fury.io/rb/chronar.svg?icon=si%3Arubygems)](https://rubygems.org/gems/chronar) -->
+[![CI](https://github.com/trinistr/Chronar/actions/workflows/CI.yaml/badge.svg)](https://github.com/trinistr/Chronar/actions/workflows/CI.yaml)
 
 > [!TIP]
-> You may be viewing documentation for an older (or newer) version of the gem than intended. Look at [Changelog](https://github.com/trinistr/gem-template/blob/main/CHANGELOG.md) to see all versions, including unreleased changes.
+> You may be viewing documentation for an older (or newer) version of the gem than intended. Look at [Changelog](https://github.com/trinistr/Chronar/blob/main/CHANGELOG.md) to see all versions, including unreleased changes.
 
 ***
 
-<img src="logo.svg" alt="" align="right">
-
-This is **gem template** with structure I find useful. It is periodically updated with new features and bug fixes.
-
-> [!IMPORTANT]
-> This is **not** actually a gem. There are released gems with similar names, but they are not related to this template in any way.
-
-You can press ![Use this template](https://img.shields.io/badge/Use%20this%20template-1f833d) button at the top-right ↗️ of the GitHub page to create a new gem repository for yourself.
-
-- After copying the template, replace "*gem-template*" with your gem name, `GemTemplate` with gem's module name, and rename "gem_template" files. Change username from "trinistr" to yours too!
-- Don't forget to fill *gemspec* and this *README* with your own data. Of course, you also **have to** change copyright notice in "*LICENSE.txt*". Maybe even change the license.
-- Make sure that [workflows](/.github/workflows) do what you want. Delete or change them as you see fit. However, removing [Zizmor workflow](/.github/workflows/zizmor.yaml) is not recommended, as it protects you against security vulnerabilities.
-- Look at rulesets to be imported into the GitHub repository (Settings > Rules > Rulesets): [Default branch protection](/.github/Default%20branch%20protection.json), [Commit protection](/.github/Commit%20protection.json) and [Tag protection](/.github/Tag%20protection.json). These files are not needed after configuring the repository.
-
-> [!NOTE]
-> **This template is dedicated to the public domain under the terms of [CC0](https://creativecommons.org/publicdomain/zero/1.0/).**
+A prototype esoteric programming language based on splitting timelines.
 
 ## Table of contents
 
@@ -35,17 +20,17 @@ You can press ![Use this template](https://img.shields.io/badge/Use%20this%20tem
 
 ## Installation
 
-Add to your application's Gemfile:
+Install the gem:
 
-```ruby
-gem "gem-template", github: "trinistr/gem-template"
+```sh
+gem install chronar
 ```
 
 ## Usage
 
 > [!NOTE]
-> - Latest documentation from `main` branch is automatically deployed to [GitHub Pages](https://trinistr.github.io/gem-template).
-> - Documentation for published versions is available on [RubyDoc](https://rubydoc.info/gems/gem-template).
+> - Latest documentation from `main` branch is automatically deployed to [GitHub Pages](https://trinistr.github.io/chronar).
+> - Documentation for published versions is available on [RubyDoc](https://rubydoc.info/gems/chronar).
 
 TODO: Write usage instructions here
 
@@ -61,7 +46,7 @@ To release a new version, run `rake version:{major|minor|patch}`, and then run `
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/trinistr/gem-template.
+Bug reports and pull requests are welcome on GitHub at https://github.com/trinistr/chronar.
 
 **Checklist for a new or updated feature**
 
@@ -75,4 +60,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/trinis
 
 ## License
 
-This gem is available as open source under the terms of the MIT License, see [LICENSE.txt](https://github.com/trinistr/gem-template/blob/main/LICENSE.txt).
+This gem is available as open source under the terms of the MIT License, see [LICENSE.txt](https://github.com/trinistr/chronar/blob/main/LICENSE.txt).

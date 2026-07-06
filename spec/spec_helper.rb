@@ -5,7 +5,7 @@ Dir["#{__dir__}/support/**/*.rb"].each { require _1 unless _1.end_with?("coverag
 # Require coverage helper before the gem to ensure proper coverage reporting.
 require_relative "support/coverage_helper"
 
-require "gem_template"
+require "chronar"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
