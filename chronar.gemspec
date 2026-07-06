@@ -8,11 +8,12 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/trinistr/#{spec.name}"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
-  spec.summary = "This is a cool gem."
+  spec.summary = "Prototype esoteric programming language based on splitting timelines."
   # spec.description = "TODO: Write a longer description or delete this line."
 
   # Dependencies:
-  # spec.add_dependency "concurrent-ruby", "~> 1.2"
+  spec.add_dependency "parslet"
+  spec.add_dependency "immutable-ruby"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["bug_tracker_uri"] = "#{spec.homepage}/issues"

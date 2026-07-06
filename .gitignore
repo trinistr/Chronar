@@ -10,3 +10,6 @@
 
 # remote rubocop configuration
 .rubocop-*
+
+# do not lock versions for gems
+Gemfile.lock
