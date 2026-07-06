@@ -1,0 +1,3 @@
+module GemTemplate
+  VERSION: String
+end
