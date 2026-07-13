@@ -8,3 +8,11 @@ plugins:
   - rubocop-rspec
   - rubocop-thread_safety
   - rubocop-yard
+
+Layout/RedundantLineBreak:
+  Exclude:
+    - lib/chronar/parser/*
+
+Style/BlockDelimiters:
+  Exclude:
+    - lib/chronar/parser/*
