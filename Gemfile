@@ -43,6 +43,9 @@ group :documentation do
 end
 
 group :development do
+  # Interactive console
+  gem "irb", require: false
+
   # Automatic updates for version changes
   gem "bump", require: false
 
