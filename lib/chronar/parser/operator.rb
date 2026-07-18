@@ -21,7 +21,7 @@ module Chronar
         evaluate | mark | echo | not_collapse | timeline_split | timeline_merge | logical
       }
       rule(:evaluate) {
-        (str("|") >> match["><"].absent?).as(:evaluate) >> spaces >>
+        str(":").as(:evaluate) >> spaces >>
           ArgumentList.new([statement], 1..1)
       }
       rule(:mark) {
@@ -39,8 +39,13 @@ module Chronar
       }
 
       rule(:timeline_split) {
-        trunk_branch | branch | split |
+        trunk |
+          trunk_branch | branch | split |
           trunk_branch_past | branch_past | split_past
+      }
+      rule(:trunk) {
+        str("|").as(:trunk) >> spaces >>
+          ArgumentList.new([bubble_argument], 1..1)
       }
       rule(:trunk_branch) {
         str("|>").as(:trunk_branch) >> spaces >>
